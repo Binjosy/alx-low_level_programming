@@ -1,5 +1,3 @@
-
-
 /**
  * _strlen - returns the length of a string
  * @s: string
@@ -7,11 +5,14 @@
  */
 int _strlen(char *s)
 {
-	int len = 0;
-	while (*s != '\0)
+	int longi = 0;
+
+	while (*s != '\0')
+
 	{
-		len++;
+		longi++;
 		s++;
 	}
-	return (len);
+
+	return (longi);
 }
