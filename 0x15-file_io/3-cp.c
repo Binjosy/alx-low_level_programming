@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * error_file - check if a file is opened and handles errors
+ * error_file - check if a file is opened and handle errors
  * @file_from: initial file to copy from and to check
  * @file_to: destination file to copy to
  * @argv: argument vector
@@ -22,8 +22,8 @@ void error_file(int file_from, int file_to, char *argv[])
 }
 
 /**
- * main - copies the contents of a file to another file
- * @argc: arument count
+ * main - copy content of a file from one to another
+ * @argc: argument count
  * @argv: argument vector
  * Return: 0 on success
  */
